@@ -1,0 +1,39 @@
+cd /c/Demo/cfc/AMHCARM-P
+git status
+
+git remote -v
+git branch -v
+git branch -vva
+git remote add [别名] [分支名]
+git fetch ct report:my-report
+git merge my-report
+git remote -v
+git branch -v
+
+git fetch gr ReportAutomation
+git merge gr/ReportAutomation
+
+
+
+
+git stash list
+git log --oneline --graph
+git log --pretty=format:"%h - %an, %ar : %s"
+git log --since=2.weeks
+git log --pretty=format:"%h - %an, %ar : %s" --author=Zed --since="2017-04-25" --graph
+
+返回 git add cmd(git reset HEAD [filename])
+untrack:
+git rm --cached [filename]
+
+delete barnch :
+$ git push origin --delete <branch_name>
+$ git branch -d <branch_name>
+
+
+
+
+退格
+中间分支diff
+N
+shift+N
